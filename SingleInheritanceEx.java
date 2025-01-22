@@ -1,10 +1,10 @@
-class Parent {
+class Parents {
     void display() {
         System.out.println("This is parent class.");
     }
 }
 
-class Child extends Parent {
+class Childs extends Parents {
     void show() {
         System.out.println("This is child class.");
     }
@@ -12,7 +12,7 @@ class Child extends Parent {
 
 public class SingleInheritanceEx {
     public static void main(String[] args) {
-        Child obj = new Child();
+        Childs obj = new Childs();
         obj.display(); // Parent class method
         obj.show();    // Child class method
     }
