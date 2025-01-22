@@ -1,5 +1,3 @@
-package PackageImplementation;
-
 import java.util.Scanner;
 
 class UtilPackage {
